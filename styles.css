@@ -1,0 +1,200 @@
+body {
+    background-color: #000;
+    margin: 5px;
+    display: flex;
+    user-select: none;
+    justify-content: center;
+}
+
+.base {
+    height: 650px;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 305px;
+    height: 650px;
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f55d09;
+    color: #FFF;
+    font-weight: bolder;
+    height: 31%;
+    width: 100%;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
+}
+
+.upper img {
+    width: 110px;
+}
+
+.boxes {
+    width: 90%;
+}
+
+.low-menu {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #fff;
+    height: 72.1%;
+    width: 100%;
+
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+}
+
+.login, .common {
+    background-color: #f5f6fa;
+    margin-bottom: 14px;
+    border-radius: 2%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: -14px;
+    padding-bottom: 8px;
+    height: 26.5%;
+    width: 90%;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    width: 87%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#user {
+    font-size: 11px;
+}
+
+#account {
+    color: #9ea2b4;
+    font-size: 11px;
+}
+
+#avatar {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+}
+
+#data {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.otherBtn {
+    border: 1px solid #d5d7e0;
+    border-radius: 3px;
+    background-color: #f5f6fa;
+    padding: 8px 10px;
+    font-size: 10px;
+    
+    font-weight: 700;
+}
+
+.mainBtn {
+    border: none;
+    background: #f1681f; 
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 13px 60px;
+    border-radius: 4px;
+    
+}
+
+.common {
+    height: 20%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.common img {
+    height: 40%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+#isafe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+}
+
+#isafe img {
+    width: 36px;
+    margin-right: 8px;
+}
+
+#isafe span {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.capsula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: orange;
+    margin: 6px;
+    font-size: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    height: 20px;
+    width: 10px;
+}
+
+#dot div {
+    margin: 2px;
+}
+
+.common button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 8px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.common span {
+    font-size: 11px;
+    color: #76767e;
+}
